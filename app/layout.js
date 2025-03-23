@@ -23,6 +23,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <button
+          className="fixed bottom-4 right-4 p-4 rounded-full bg-black/[.8] text-white"
+        > Button_name </button>
       </body>
     </html>
   );
