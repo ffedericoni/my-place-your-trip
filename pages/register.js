@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { supabase } from '../lib/supabaseClient'; // Import your Supabase client
+import { supabase } from '../lib/supabaseclient'; // Import your Supabase client
 
 function RegisterPage() {
   const [email, setEmail] = useState('');

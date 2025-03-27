@@ -1,7 +1,7 @@
 // In pages/profile.js
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { supabase } from '../lib/supabaseClient'; // Import your Supabase client
+import { supabase } from '../lib/supabaseclient'; // Import your Supabase client
 
 function ProfilePage() {
     const [user, setUser] = useState(null);
