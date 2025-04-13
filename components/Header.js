@@ -15,13 +15,9 @@ function Header() {
             Share your home, connect with a global community, and explore the world without breaking the bank.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-          <Link href="/register" passHref>  {/* Wrap the button in a Link */}
-            <a
-              className="inline-block bg-yellow-400 hover:bg-yellow-500 text-blue-800 font-bold py-3 px-6 rounded-full transition-colors duration-300"
-            >
-              Join MyPlaceUrTrip
-            </a>
-            </Link>
+          <Link href="/register" className="inline-block bg-yellow-400 hover:bg-yellow-500 text-blue-800 font-bold py-3 px-6 rounded-full transition-colors duration-300">
+            Join MyPlaceUrTrip
+          </Link>
             <a
               href="/properties"
               className="inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-800 font-bold py-3 px-6 rounded-full transition-colors duration-300"

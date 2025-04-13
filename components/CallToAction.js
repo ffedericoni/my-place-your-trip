@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function CallToAction() {
     return (
       <section className="py-16 bg-blue-100">
@@ -8,12 +10,9 @@ function CallToAction() {
           <p className="text-lg text-blue-600 mb-8">
             Join MyPlaceUrTrip today and discover a new way to travel!
           </p>
-          <a
-            href="/register" // Replace with your actual register page route
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full"
-          >
+          <Link href="/register" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
             Sign Up Now
-          </a>
+          </Link>
         </div>
       </section>
     );

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import { supabase } from '../lib/supabaseclient'; // Import your Supabase client
 
 function RegisterPage() {
@@ -105,9 +106,9 @@ function RegisterPage() {
             >
               {loading ? 'Signing Up...' : 'Join MyPlaceUrTrip'}
             </button>
-            <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/login">
+            <Link href="/login" className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800">
               Already have an account?
-            </a>
+            </Link>
           </div>
         </form>
       </div>
